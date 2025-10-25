@@ -1,7 +1,6 @@
 from core.graph import build_graph
 from core.state import TicketState
 
-
 def run_graph(user_input: str) -> TicketState:
     """
     Run the LangGraph pipeline for a given user input.
